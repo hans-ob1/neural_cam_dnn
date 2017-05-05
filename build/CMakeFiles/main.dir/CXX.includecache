@@ -25,6 +25,8 @@ opencv2/highgui/highgui.hpp
 -
 supportfunc.hpp
 /home/hxhx/darknet/neural-cam/src/supportfunc.hpp
+fstream
+-
 detector.h
 /home/hxhx/darknet/neural-cam/src/detector.h
 

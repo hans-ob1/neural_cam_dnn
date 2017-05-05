@@ -1,0 +1,3 @@
+datacfg=cfg/voc.data
+cfg=cfg/tiny-yolo-voc.cfg
+weights=tiny-yolo-voc.weights

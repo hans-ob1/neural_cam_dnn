@@ -7,8 +7,9 @@
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include "supportfunc.hpp"
+#include <fstream>
 //#include <thread>
-//#include <X11/Xlib.h>
+
 
 using namespace std;
 using namespace cv;
@@ -21,7 +22,7 @@ extern "C" {
 // ********* support functions ****************************
 // ********************************************************
 
-VideoCapture cap_un(0); 
+VideoCapture cap_un(0);
 Mat img_cpp;
 
 // temp storage for detected objects
@@ -79,7 +80,7 @@ extern "C" void label_func(int tl_x, int tl_y, int br_x, int br_y, char *names){
 vector<detectedBox> display_frame_cv(bool display){
 
     vector<detectedBox> pass_objects(detectedobjects);
-   
+
     if(display){
    	for(int j = 0; j < detectedobjects.size(); j++){
      	    Point namePos(detectedobjects[j].topLeft.x,detectedobjects[j].topLeft.y-10);  //position of name
@@ -99,7 +100,7 @@ vector<detectedBox> display_frame_cv(bool display){
 void display_frame_cv(){
 
    Mat img_display = img_cpp.clone();
-   
+
    for(int j = 0; j < detectedobjects.size(); j++){
      Point namePos(detectedobjects[j].topLeft.x,detectedobjects[j].topLeft.y-10);  //position of name
 
@@ -138,7 +139,7 @@ extern "C" image load_stream_cv()
     }
 
     //only for ZED Stereo!
-    //cvSetImageROI(src, cvRect(0, 0, src->width/2,src->height));  
+    //cvSetImageROI(src, cvRect(0, 0, src->width/2,src->height));
     //IplImage *dst = cvCreateImage (cvGetSize(src),src->depth, src->nChannels );
     //cvCopy(src, dst, NULL);
     //cvResetImageROI(src);
@@ -151,15 +152,72 @@ extern "C" image load_stream_cv()
 
 
 // initialization of network
-void init_network_param(){
+bool init_network_param(){
 
-     char *datacfg = "cfg/voc.data";
-     char *cfg = "cfg/tiny-yolo-voc.cfg";
-     char *weights = "tiny-yolo-voc.weights";
-     float thresh_desired = 0.35;
-     
+     char *datacfg;
+     char *cfg;
+     char *weights;
+     float thresh_desired;
+
+     string datafile = "cfg/voc.data";
+     string archfile = "cfg/tiny-yolo-voc.cfg";
+     string weightfile = "tiny-yolo-voc.weights";
+
+     ifstream confFile("setup.cfg");
+
+     string line;
+     int cnt = 0;
+     if(confFile.is_open()){
+       while( std::getline(confFile, line) ){
+           istringstream is_line(line);
+           string key;
+
+           if(getline(is_line, key, '=')){
+               string value;
+               if(getline(is_line, value)){
+                  if(cnt == 0){
+                    datacfg = new char[value.length() + 1];
+                    strcpy(datacfg, value.c_str());
+                  }
+                  else if(cnt == 1){
+                    cfg = new char[value.length() + 1];
+                    strcpy(cfg, value.c_str());
+                  }
+                  else if(cnt == 2){
+                    weights = new char[value.length() + 1];
+                    strcpy(weights, value.c_str());
+                  }
+                  else if(cnt == 3){
+                    thresh_desired = strtof((value).c_str(),0); // string to float
+                  }
+                  cnt++;
+               }
+           }
+       }
+     }else{
+
+         datacfg = new char[datafile.length() + 1];
+         strcpy(datacfg, datafile.c_str());
+
+         cfg = new char[archfile.length() + 1];
+         strcpy(cfg, archfile.c_str());
+
+         weights = new char[weightfile.length() + 1];
+         strcpy(weights, weightfile.c_str());
+
+         thresh_desired = 0.35;
+
+         cout << "Unable to open setup.cfg, using Default settings!" << endl;
+     }
+
      //initialize c api
      setup_proceedure(datacfg, cfg, weights, thresh_desired);
+
+     delete [] datacfg;
+     delete [] cfg;
+     delete [] weights;
+
+     return 1;
 }
 
 // initialize camera setup
@@ -184,17 +242,17 @@ void process_camera_frame(bool display){
 //---------------------------->
 
 int main(){
-   
-   // for camera 
+
+   // camera setup
    if(!init_camera_param(0))
        return -1;
 
-   init_network_param();       //initialize the camera
+   init_network_param();       //initialize the CNN parameters from cfg files
 
-   for(;;){  //loop
+   for(;;){  //process and show everyframe
 
      process_camera_frame(true);
-     
+
      if(waitKey (1) >= 0)  //break upon anykey
          break;
    }
