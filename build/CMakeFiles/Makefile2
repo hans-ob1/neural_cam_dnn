@@ -91,8 +91,8 @@ clean: CMakeFiles/darknetlib.dir/clean
 # Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all: CMakeFiles/supportlib.dir/all
 CMakeFiles/main.dir/all: CMakeFiles/darknetlib.dir/all
+CMakeFiles/main.dir/all: CMakeFiles/supportlib.dir/all
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles  51
