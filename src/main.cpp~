@@ -7,8 +7,9 @@
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include "supportfunc.hpp"
+#include <fstream>
 //#include <thread>
-//#include <X11/Xlib.h>
+
 
 using namespace std;
 using namespace cv;
@@ -76,6 +77,26 @@ extern "C" void label_func(int tl_x, int tl_y, int br_x, int br_y, char *names){
 
 }
 
+vector<detectedBox> display_frame_cv(bool display){
+
+    vector<detectedBox> pass_objects(detectedobjects);
+   
+    if(display){
+   	for(int j = 0; j < detectedobjects.size(); j++){
+     	    Point namePos(detectedobjects[j].topLeft.x,detectedobjects[j].topLeft.y-10);  //position of name
+            rectangle(img_cpp, detectedobjects[j].topLeft, detectedobjects[j].bottomRight, detectedobjects[j].objectColor, 2, CV_AA);                  //draw bounding box
+            putText(img_cpp, detectedobjects[j].name, namePos, FONT_HERSHEY_PLAIN, 2.0, detectedobjects[j].objectColor, 1.5);                          //write the name of the object
+        }
+
+        imshow("detected results", img_cpp); //display as external window
+    }
+
+    detectedobjects.clear();  //clear vector for next cycle
+
+    return pass_objects;
+}
+
+/*
 void display_frame_cv(){
 
    Mat img_display = img_cpp.clone();
@@ -94,7 +115,7 @@ void display_frame_cv(){
 }
 
 
-/*
+
 // input picture frame from file
 extern "C" image load_image_cv(char *filename)
 {
@@ -131,15 +152,48 @@ extern "C" image load_stream_cv()
 
 
 // initialization of network
-void init_network_param(){
+bool init_network_param(){
 
      char *datacfg = "cfg/voc.data";
      char *cfg = "cfg/tiny-yolo-voc.cfg";
      char *weights = "tiny-yolo-voc.weights";
      float thresh_desired = 0.35;
-     
+
+/*
+     ifstream confFile("setup.cfg");
+
+     string line;
+     int cnt = 0;
+     if(confFile.is_open()){
+       while( std::getline(confFile, line) ){
+           istringstream is_line(line);
+           string key;
+
+           if(getline(is_line, key, '=')){
+               string value;
+               if(getline(is_line, value)){
+                  if(cnt == 0)
+                     datacfg = &value[0u];
+                  else if(cnt == 1)
+                     cfg = &value[0u];
+                  else if(cnt == 2)
+                     weights = &value[0u];
+                  
+                  cout << "value: " << datacfg << endl;
+                  cnt++;
+               }
+           }
+       }
+ 
+     }else{
+         cout << "Error 0: Unable to open setup.cfg!" << endl;
+         return 0;
+     }
+*/
      //initialize c api
      setup_proceedure(datacfg, cfg, weights, thresh_desired);
+
+     return 1;
 }
 
 // initialize camera setup
@@ -159,18 +213,44 @@ void process_camera_frame(bool display){
      display_frame_cv(display);
 }
 
+bool parse_setup(){
+     
+     ifstream confFile("setup.cfg");
+
+     string line;
+     if(confFile.is_open()){
+       while( std::getline(confFile, line) ){
+           istringstream is_line(line);
+           string key;
+
+           if(getline(is_line, key, '=')){
+               string value;
+           if(getline(is_line, value))
+               cout << "value: " << value << endl;
+           
+           }
+       }
+     }else{
+         cout << "Error 0: Unable to open setup.cfg!" << endl;
+         return 0;
+     }
+
+     return 1;
+}
+
 //---------------------------->
 //<---------------------- main ---------------------------->
 //---------------------------->
 
 int main(){
-   
+  
    // for camera 
    if(!init_camera_param(0))
        return -1;
 
    init_network_param();       //initialize the camera
 
+/*
    for(;;){  //loop
 
      process_camera_frame(true);
@@ -178,6 +258,9 @@ int main(){
      if(waitKey (1) >= 0)  //break upon anykey
          break;
    }
+ */
+
+      
 
    return 0;
 }
