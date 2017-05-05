@@ -76,6 +76,26 @@ extern "C" void label_func(int tl_x, int tl_y, int br_x, int br_y, char *names){
 
 }
 
+vector<detectedBox> display_frame_cv(bool display){
+
+    vector<detectedBox> pass_objects(detectedobjects);
+   
+    if(display){
+   	for(int j = 0; j < detectedobjects.size(); j++){
+     	    Point namePos(detectedobjects[j].topLeft.x,detectedobjects[j].topLeft.y-10);  //position of name
+            rectangle(img_cpp, detectedobjects[j].topLeft, detectedobjects[j].bottomRight, detectedobjects[j].objectColor, 2, CV_AA);                  //draw bounding box
+            putText(img_cpp, detectedobjects[j].name, namePos, FONT_HERSHEY_PLAIN, 2.0, detectedobjects[j].objectColor, 1.5);                          //write the name of the object
+        }
+
+        imshow("detected results", img_cpp); //display as external window
+    }
+
+    detectedobjects.clear();  //clear vector for next cycle
+
+    return pass_objects;
+}
+
+/*
 void display_frame_cv(){
 
    Mat img_display = img_cpp.clone();
@@ -105,6 +125,7 @@ extern "C" image load_image_cv(char *filename)
     rgbgr_image(out);
     return out;
 }
+*/
 
 // capture from camera stream
 extern "C" image load_stream_cv()
@@ -128,29 +149,51 @@ extern "C" image load_stream_cv()
     return im;
 }
 
+
+// initialization of network
+void init_network_param(){
+
+     char *datacfg = "cfg/voc.data";
+     char *cfg = "cfg/tiny-yolo-voc.cfg";
+     char *weights = "tiny-yolo-voc.weights";
+     float thresh_desired = 0.35;
+     
+     //initialize c api
+     setup_proceedure(datacfg, cfg, weights, thresh_desired);
+}
+
+// initialize camera setup
+bool init_camera_param(int cam_id){
+
+      cap_un.open(cam_id);
+      if(!cap_un.isOpened()){
+         cout << "camera stream failed to open!" <<endl;
+	 return false;
+      }else
+         return true;
+}
+
+// run this in a loop
+void process_camera_frame(bool display){
+     camera_detector();      //draw frame from img_cpp;
+     display_frame_cv(display);
+}
+
 //---------------------------->
 //<---------------------- main ---------------------------->
 //---------------------------->
 
 int main(){
    
-  
-   /*
-   // setup camera
-   cvSetCaptureProperty(cap_un, CV_CAP_PROP_FOURCC ,CV_FOURCC('M', 'J', 'P', 'G'));
-   cvSetCaptureProperty(cap_un, CV_CAP_PROP_FPS ,30);
-   cvSetCaptureProperty(cap_un,	CV_CAP_PROP_FRAME_WIDTH,640);
-   cvSetCaptureProperty(cap_un,	CV_CAP_PROP_FRAME_HEIGHT,480);
-   */
-
    // for camera 
-   setup_proceedure();       //initialize the camera
+   if(!init_camera_param(0))
+       return -1;
+
+   init_network_param();       //initialize the camera
 
    for(;;){  //loop
 
-     camera_detector();
-
-     display_frame_cv();
+     process_camera_frame(true);
      
      if(waitKey (1) >= 0)  //break upon anykey
          break;

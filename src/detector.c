@@ -7,13 +7,29 @@
 #include "option_list.h"
 
 // >>>>>>>>>>>>> extern functions from c++ >>>>>>>>>>>>>>>
-image load_image_cv(char *filename);    //load a picture
+//image load_image_cv(char *filename);    //load a picture
 image load_stream_cv();                 //load from a camera
 void display_image_cv(image display);   //display frame
 void setup_cam();
 void label_func(int tl_x, int tl_y, int br_x, int br_y, char *names);  //bounding box labelling for c++
 // <<<<<<<<<<<<<< extern functions from c++ <<<<<<<<<<<<<<
 
+
+// ************* setup values *************
+float thresh = 0.35;     //detection threshold
+float hier_thresh = 0.5;
+
+char *filename;
+
+list *options;
+char *name_list;
+char **names;
+image **alphabet;
+network net;
+char buff[256];
+char *input;
+float nms;
+clock_t time_t1;
 
 
 // ************* support functions *************
@@ -41,32 +57,9 @@ void draw_bounding_box(int im_w, int im_h, int num, float thresh, box *boxes, fl
     }
 }
 
-
-// ************* setup values *************
-float thresh = 0.35;     //detection threshold
-float hier_thresh = 0.5;
-
-char *datacfg = "cfg/voc.data";
-char *cfg = "cfg/tiny-yolo-mod.cfg";
-char *weights = "tiny-yolo-voc.weights";
-char *filename = "data/horses.jpg";
-
-list *options;
-char *name_list;
-char **names;
-image **alphabet;
-network net;
-char buff[256];
-char *input;
-float nms;
-clock_t time_t1;
-
-int flag = 0;
-
-
 // ************* setup values *************
 
-void setup_proceedure(){
+void setup_proceedure(char *datacfg, char *cfg, char *weights, float thresh_desired){
     
  //setup proceedure
  options = read_data_cfg(datacfg);
@@ -82,9 +75,8 @@ void setup_proceedure(){
 
  input= buff;
  nms=.4;    //non max supression
+ thresh = thresh_desired;
  srand(2222222);
-
- flag = 1;
 }
 
 void camera_detector()  // run this through a loop
@@ -124,7 +116,7 @@ void camera_detector()  // run this through a loop
    free_ptrs((void **)probs, l.w*l.h*l.n);
 }
 
-
+/*
 void picture_detector()
 {
     
@@ -175,4 +167,4 @@ void picture_detector()
             break;
     }
 }
-
+*/
