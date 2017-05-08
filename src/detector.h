@@ -5,4 +5,6 @@
  void camera_detector();
  void picture_detector();
 
+ void setup_detector_training(char *datacfg, char *cfg, char *weights);
+ void execute_detector_training();
 #endif
