@@ -152,7 +152,7 @@ extern "C" image load_stream_cv()
 
 
 // initialization of network
-bool init_network_param(){
+bool init_network_param(bool train){
 
      char *datacfg;
      char *cfg;
@@ -185,8 +185,14 @@ bool init_network_param(){
                     strcpy(cfg, value.c_str());
                   }
                   else if(cnt == 2){
-                    weights = new char[value.length() + 1];
-                    strcpy(weights, value.c_str());
+
+                    if(value.length() == 0)
+                       weights = 0;
+		    else{
+                       weights = new char[value.length() + 1];
+                       strcpy(weights, value.c_str());
+		    }
+
                   }
                   else if(cnt == 3){
                     thresh_desired = strtof((value).c_str(),0); // string to float
@@ -202,17 +208,26 @@ bool init_network_param(){
 
          cfg = new char[archfile.length() + 1];
          strcpy(cfg, archfile.c_str());
-
+	
          weights = new char[weightfile.length() + 1];
          strcpy(weights, weightfile.c_str());
 
          thresh_desired = 0.35;
 
-         cout << "Unable to open setup.cfg, using Default settings!" << endl;
+         cout << "Error: Unable to open setup.cfg, make sure it exists in the parent directory" << endl;
+         
+         return 0;
      }
 
      //initialize c api
-     setup_proceedure(datacfg, cfg, weights, thresh_desired);
+     if(train)
+	setup_detector_training(datacfg, cfg, weights);
+     else{
+        if(!weights){
+	   cout << "Error: No weights file specified in setup.cfg! Abort" <<endl;
+        }else    
+           setup_proceedure(datacfg, cfg, weights, thresh_desired);
+     }
 
      delete [] datacfg;
      delete [] cfg;
@@ -242,20 +257,34 @@ void process_camera_frame(bool display){
 //<---------------------- main ---------------------------->
 //---------------------------->
 
-int main(){
+int main(int argc, char* argv[]){
 
-   // camera setup
-   if(!init_camera_param(0))
-       return -1;
+   if(argc < 2){
+      cerr <<"Usage detail: "<< argv[0] << " OPTION"<< endl;
+      return 0;
+   }
 
-   init_network_param();       //initialize the CNN parameters from cfg files
+   if(strcmp(argv[1], "train") == 0){        //training
 
-   for(;;){  //process and show everyframe
+      init_network_param(1);        
+      execute_detector_training();
 
-     process_camera_frame(true);
+   }else if (strcmp(argv[1], "eval") == 0){  //evaluation using camera
 
-     if(waitKey (1) >= 0)  //break upon anykey
-         break;
+      if(!init_camera_param(0))
+          return -1;
+
+       init_network_param(0);       //initialize the CNN parameters from cfg files
+
+       for(;;){  //process and show everyframe
+          process_camera_frame(true);
+          if(waitKey (1) >= 0)  //break upon anykey
+             break;
+       }
+
+   }else{
+      cerr << "Invalid options, either train or eval" << endl;
+      return 0;
    }
 
    return 0;
