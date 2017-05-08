@@ -158,7 +158,8 @@ bool init_network_param(){
      char *cfg;
      char *weights;
      float thresh_desired;
-
+     
+     //default
      string datafile = "cfg/voc.data";
      string archfile = "cfg/tiny-yolo-voc.cfg";
      string weightfile = "tiny-yolo-voc.weights";
