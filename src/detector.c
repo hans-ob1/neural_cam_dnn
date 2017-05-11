@@ -133,6 +133,10 @@ char* train_datacfg;
 char* train_archcfg;    
 char* train_weights;
 
+list *options_trainer;
+char *base;
+network *nets;
+
 // setup initializations
 void setup_detector_training(char *datacfg, char *cfg, char *weights){
 
@@ -150,36 +154,83 @@ void setup_detector_training(char *datacfg, char *cfg, char *weights){
     train_datacfg = datacfg;
     train_archcfg = cfg;
     train_weights = weights;
+
+    printf("%s\n", train_datacfg);
+    printf("%s\n", train_archcfg);
+    printf("%s\n", train_weights);
+
+    options_trainer = read_data_cfg(datacfg);
+    base = basecfg(cfg);
+
+    nets = calloc(ngpus, sizeof(network));
+    nets[0] = parse_network_cfg(cfg);
+    if(weights){
+       load_weights(&nets[0], weights);
+    }
 }
 
 
 void execute_detector_training()
 {
-    list *options = read_data_cfg(train_datacfg);
-    char *train_images = option_find_str(options, "train", "data/train.list");
-    char *backup_directory = option_find_str(options, "backup", "/backup/");
+    printf("Pass Stage 0\n");
+    //list *options = read_data_cfg(train_datacfg);
+
+    printf("Pass Stage 1\n");
+    char *train_images = option_find_str(options_trainer, "train", "data/train.list");
+    char *backup_directory = option_find_str(options_trainer, "backup", "/backup/");
+
+    printf("Pass Stage 2\n");
 
     srand(time(0));
-    char *base = basecfg(train_archcfg);
+    //char *base = basecfg(train_archcfg);
+
     printf("%s\n", base);
     float avg_loss = -1;
-    network *nets = calloc(ngpus, sizeof(network));
+    //network *nets = calloc(ngpus, sizeof(network));
 
     srand(time(0));
     int seed = rand();
+
+/*
+    //multi gpu
     int i;
     for(i = 0; i < ngpus; ++i){
         srand(seed);
 #ifdef GPU
         cuda_set_device(gpus[i]);
 #endif
-        nets[i] = parse_network_cfg(train_archcfg);
+
+        printf("Pass Stage 3\n");
+
+        //nets[i] = parse_network_cfg(train_archcfg);
         if(train_weights){
             load_weights(&nets[i], train_weights);
         }
+
+        printf("Pass Stage 4\n");
+
         if(clear) *nets[i].seen = 0;
         nets[i].learning_rate *= ngpus;
     }
+*/
+
+    srand(seed);
+#ifdef GPU
+    cuda_set_device(gpus[0]);
+#endif
+
+    printf("Pass Stage 3\n");
+
+    //nets[i] = parse_network_cfg(train_archcfg);
+    //if(train_weights){
+    //   load_weights(&nets[0], train_weights);
+    //}
+
+    printf("Pass Stage 4\n");
+
+    if(clear) *nets[0].seen = 0;
+    nets[0].learning_rate *= ngpus;
+
     srand(time(0));
     network net = nets[0];
 
@@ -189,12 +240,16 @@ void execute_detector_training()
 
     layer l = net.layers[net.n - 1];
 
+    printf("Pass Stage 5\n");
+
     int classes = l.classes;
     float jitter = l.jitter;
 
     list *plist = get_paths(train_images);
 
     char **paths = (char **)list_to_array(plist);
+
+    printf("Pass Stage 6\n");
 
     load_args args = {0};
     args.w = net.w;
@@ -214,9 +269,14 @@ void execute_detector_training()
     args.saturation = net.saturation;
     args.hue = net.hue;
 
+    printf("Pass Stage 7\n");
+
     pthread_t load_thread = load_data(args);
     clock_t time;
     int count = 0;
+    int i;
+
+    printf("Pass Stage 8\n");
 
     while(get_current_batch(net) < net.max_batches){
         if(l.random && count++%10 == 0){

@@ -269,7 +269,7 @@ int main(int argc, char* argv[]){
       init_network_param(1);        
       execute_detector_training();
 
-   }else if (argv[1] == "eval"){  //evaluation using camera
+   }else if (strcmp(argv[1], "eval") == 0){  //evaluation using camera
 
       if(!init_camera_param(0))
           return -1;

@@ -50,6 +50,7 @@ SET(CMAKE_C_COMPILER_ID "GNU")
 SET(CMAKE_TARGET_DEFINITIONS
   "CUDNN"
   "GPU"
+  "OPENCV"
   )
 
 # Targets to which this target links.

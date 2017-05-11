@@ -1,3 +1,4 @@
-datacfg=cfg/voc.data
-cfg=cfg/tiny-yolo-voc.cfg
-weights=tiny-yolo-voc.weights
+datacfg=onroad_cfg/full_model_3class/combo_v3.data
+cfg=onroad_cfg/full_model_3class/combo_v3.cfg
+weights=onroad_cfg/full_model_3class/darknet19_448.conv.23
+thres=0.30

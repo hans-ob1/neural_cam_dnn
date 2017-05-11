@@ -33,14 +33,14 @@ void convert_frame(IplImage* input){
     img_cpp = cv::cvarrToMat(input);
 }
 
-// draw boxes
+// draw boxes (change here if you want to show different classes)
 extern "C" void label_func(int tl_x, int tl_y, int br_x, int br_y, char *names){
 
    string str(names);
    Scalar color;
    bool keep = false;
 
-   if(str == "person"){  //index 01
+   if(str == "pedestrian"){  //index 01
      color = Scalar(255, 0, 0);  //coral color
      keep = true;
    }else if (str == "bike"){ //index 02
@@ -113,20 +113,22 @@ void display_frame_cv(){
 
     imshow("detected results", img_cpp);
 }
-
+*/
 
 
 // input picture frame from file
-extern "C" image load_image_cv(char *filename)
+extern "C" image load_image_from_cv(char *filename)
 {
-    IplImage* src = cvLoadImage(filename);
-    image out = ipl_to_image(src);
+    //IplImage* src = cvLoadImage(filename);
 
-    cvReleaseImage(&src);
+    Mat src = imread(filename);
+    image out = mat_to_image(src);
+
+    //cvReleaseImage(&src);
     rgbgr_image(out);
     return out;
 }
-*/
+
 
 // capture from camera stream
 extern "C" image load_stream_cv()
@@ -188,10 +190,10 @@ bool init_network_param(bool train){
 
                     if(value.length() == 0)
                        weights = 0;
-		    else{
+		    		else{
                        weights = new char[value.length() + 1];
                        strcpy(weights, value.c_str());
-		    }
+		    		}
 
                   }
                   else if(cnt == 3){
@@ -221,7 +223,7 @@ bool init_network_param(bool train){
 
      //initialize c api
      if(train)
-	setup_detector_training(datacfg, cfg, weights);
+		setup_detector_training(datacfg, cfg, weights);
      else{
         if(!weights){
 	   cout << "Error: No weights file specified in setup.cfg! Abort" <<endl;

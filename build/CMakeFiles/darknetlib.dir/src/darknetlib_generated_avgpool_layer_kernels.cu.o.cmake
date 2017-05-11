@@ -76,7 +76,7 @@ set(CUDA_NVCC_FLAGS_DEBUG  ; )
 set(CUDA_NVCC_FLAGS_MINSIZEREL  ; )
 set(CUDA_NVCC_FLAGS_RELEASE  ; )
 set(CUDA_NVCC_FLAGS_RELWITHDEBINFO  ; )
-set(nvcc_flags -m64;-DGPU;-DCUDNN) # list
+set(nvcc_flags -m64;-DOPENCV;-DGPU;-DCUDNN) # list
 set(CUDA_NVCC_INCLUDE_ARGS "-I/usr/local/cuda-8.0/include;-I/usr/local/cuda/include;-I/usr/local/cuda-8.0/include") # list (needs to be in quotes to handle spaces properly).
 set(format_flag "-c") # string
 

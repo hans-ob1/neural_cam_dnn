@@ -1,0 +1,6 @@
+classes= 3
+train  = /home/hxhx/darknet/darknet-trainer/onroad_cfg/train.txt
+valid  = /home/hxhx/darknet/darknet-trainer/onroad_cfg/train.txt
+names = onroad_cfg/full_model_3class/combo_v4.names
+backup = backup
+
