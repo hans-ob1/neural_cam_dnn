@@ -1,0 +1,6 @@
+This training configuration is setup for road obstacle detections.
+
+Object of interests:
+1. pedestrian
+2. bike
+3. vehicles

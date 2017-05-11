@@ -10,6 +10,9 @@
 #define STB_IMAGE_WRITE_IMPLEMENTATION
 #include "stb_image_write.h"
 
+#ifdef OPENCV
+    image load_image_from_cv(char *filename);                 //load from a file
+#endif
 
 int windows = 0;
 
@@ -1041,14 +1044,21 @@ image load_image_stb(char *filename, int channels)
 
 image load_image(char *filename, int w, int h, int c)
 {
-    image out = load_image_stb(filename, c);
-   // image out = load_image_cv(filename, c);
+    printf("image preloading\n");
+#ifdef OPENCV
+    image out = load_image_from_cv(filename);
 
+    printf("image loading\n");
+#else
+    image out = load_image_stb(filename, c);
+#endif
     if((h && w) && (h != out.h || w != out.w)){
         image resized = resize_image(out, w, h);
         free_image(out);
         out = resized;
     }
+
+    printf("image processed\n");
     return out;
 }
 

@@ -1,0 +1,6 @@
+classes= 3
+train  = /home/pjreddie/data/voc/train.txt
+valid  = /home/pjreddie/data/voc/2007_test.txt
+names = custom/road_detector/voc.names
+backup = backup
+

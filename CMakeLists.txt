@@ -18,7 +18,7 @@ set(
 )
 
 
-add_definitions(-DGPU -DCUDNN)
+add_definitions(-DOPENCV -DGPU -DCUDNN)
 
 #However, the file(GLOB...) allows for wildcard additions:
 file(GLOB SOURCES "src/*.c" "src/*.cu" "src/*.h")

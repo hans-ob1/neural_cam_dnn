@@ -4,5 +4,5 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS =  -std=c++11 -I/usr/local/cuda/include -I/usr/local/cuda-8.0/include   
 
-CXX_DEFINES = -DCUDNN -DGPU
+CXX_DEFINES = -DCUDNN -DGPU -DOPENCV
 
