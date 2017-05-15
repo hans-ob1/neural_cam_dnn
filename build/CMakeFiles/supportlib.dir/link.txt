@@ -1,2 +1,0 @@
-/usr/bin/ar cr libsupportlib.a  CMakeFiles/supportlib.dir/src/supportfunc.o
-/usr/bin/ranlib libsupportlib.a
