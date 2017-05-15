@@ -1,12 +1,15 @@
 #neural-cam
-neural-cam turns your USB camera into object detector that detect or classify objects it seen before. The backend framework used is darknet developed by Joseph Redmon. This version is compiled with cmake. Feel free to modify to your own use, at your own risk.
+neural-cam turns your USB camera into object detector that detect or classify objects it seen before. The backend framework used is darknet developed by Joseph Redmon. This version is modified and compiled with cmake. Feel free to modify to your own use, at your own risk.
+
+Current Feature:
+- training/evaluate yolo detector
 
 Usage Details:
 - mkdir build
 - cd build and cmake ..
 - make
-- ./main train (for training the detector)
-- ./main eval (for evalution of the detector)
+- ./main train (for training the detector, use darknet19_448.conv.23 in onroad_cfg/full_model_3class folder)
+- ./main eval <device number> (for evalution of the detector)
 
 Changes: (from v1.5 onwards)
 - Opencv component is installed into image.c file, provide a more convenient way for loading images

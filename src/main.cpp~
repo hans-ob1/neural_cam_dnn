@@ -22,7 +22,7 @@ extern "C" {
 // ********* support functions ****************************
 // ********************************************************
 
-VideoCapture cap_un(1);
+VideoCapture cap_un;
 Mat img_cpp;
 
 // temp storage for detected objects
@@ -242,11 +242,18 @@ bool init_network_param(bool train){
 bool init_camera_param(int cam_id){
 
       cap_un.open(cam_id);
+
       if(!cap_un.isOpened()){
-         cout << "camera stream failed to open!" <<endl;
-	 return false;
-      }else
+         CV_Assert("Cam open failed");
+	       return false;
+      }else{
+
+         cap_un.set(CAP_PROP_FRAME_WIDTH,1344);
+         cap_un.set(CAP_PROP_FRAME_HEIGHT,376);
+         cap_un.set(CAP_PROP_FOURCC,CV_FOURCC('M','J','P','G'));
+         cap_un.set(CAP_PROP_FPS, 30);
          return true;
+      }
 }
 
 // run this in a loop
@@ -273,7 +280,18 @@ int main(int argc, char* argv[]){
 
    }else if (strcmp(argv[1], "eval") == 0){  //evaluation using camera
 
-      if(!init_camera_param(1))
+      int camera_number = 0;
+
+      if(strcmp(argv[2], "1") == 0)
+         camera_number = 1;
+
+      if(strcmp(argv[2], "2") == 0)
+         camera_number = 2;
+
+      if(strcmp(argv[2], "3") == 0)
+         camera_number = 3;
+
+      if(!init_camera_param(camera_number))
           return -1;
 
        init_network_param(0);       //initialize the CNN parameters from cfg files

@@ -9,7 +9,7 @@ Usage Details:
 - cd build and cmake ..
 - make
 - ./main train (for training the detector, use darknet19_448.conv.23 in onroad_cfg/full_model_3class folder)
-- ./main eval (for evalution of the detector)
+- ./main eval <device number> (for evalution of the detector, e.g: ./main eval 0)
 
 Changes: (from v1.5 onwards)
 - Opencv component is installed into image.c file, provide a more convenient way for loading images

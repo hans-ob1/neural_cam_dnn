@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hxhx/darknet/neural-cam/src/main.cpp" "/home/hxhx/darknet/neural-cam/build/CMakeFiles/main.dir/src/main.o"
+  "/home/hxhx/darknet/haixun00/neural-cam/src/main.cpp" "/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/main_cam2.dir/src/main.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +17,8 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/DependInfo.cmake"
-  "/home/hxhx/darknet/neural-cam/build/CMakeFiles/supportlib.dir/DependInfo.cmake"
+  "/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/DependInfo.cmake"
+  "/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/supportlib.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hxhx/darknet/neural-cam
+CMAKE_SOURCE_DIR = /home/hxhx/darknet/haixun00/neural-cam
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hxhx/darknet/neural-cam/build
+CMAKE_BINARY_DIR = /home/hxhx/darknet/haixun00/neural-cam/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/darknetlib.dir/depend.make
@@ -200,10 +200,10 @@ CMakeFiles/darknetlib.dir/src/./darknetlib_generated_deconvolutional_kernels.cu.
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_deconvolutional_kernels.cu.o: /usr/local/cuda-8.0/include/vector_types.h
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_deconvolutional_kernels.cu.o: CMakeFiles/darknetlib.dir/src/darknetlib_generated_deconvolutional_kernels.cu.o.cmake
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_deconvolutional_kernels.cu.o: ../src/deconvolutional_kernels.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object CMakeFiles/darknetlib.dir/src/./darknetlib_generated_deconvolutional_kernels.cu.o"
-	cd /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -E make_directory /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/.
-	cd /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_deconvolutional_kernels.cu.o -D generated_cubin_file:STRING=/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_deconvolutional_kernels.cu.o.cubin.txt -P /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/darknetlib_generated_deconvolutional_kernels.cu.o.cmake
+	cd /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -E make_directory /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/.
+	cd /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_deconvolutional_kernels.cu.o -D generated_cubin_file:STRING=/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_deconvolutional_kernels.cu.o.cubin.txt -P /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/darknetlib_generated_deconvolutional_kernels.cu.o.cmake
 
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_col2im_kernels.cu.o: ../src/col2im.h
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_col2im_kernels.cu.o: ../src/col2im_kernels.cu
@@ -336,10 +336,10 @@ CMakeFiles/darknetlib.dir/src/./darknetlib_generated_col2im_kernels.cu.o: /usr/l
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_col2im_kernels.cu.o: /usr/local/cuda-8.0/include/vector_types.h
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_col2im_kernels.cu.o: CMakeFiles/darknetlib.dir/src/darknetlib_generated_col2im_kernels.cu.o.cmake
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_col2im_kernels.cu.o: ../src/col2im_kernels.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object CMakeFiles/darknetlib.dir/src/./darknetlib_generated_col2im_kernels.cu.o"
-	cd /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -E make_directory /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/.
-	cd /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_col2im_kernels.cu.o -D generated_cubin_file:STRING=/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_col2im_kernels.cu.o.cubin.txt -P /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/darknetlib_generated_col2im_kernels.cu.o.cmake
+	cd /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -E make_directory /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/.
+	cd /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_col2im_kernels.cu.o -D generated_cubin_file:STRING=/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_col2im_kernels.cu.o.cubin.txt -P /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/darknetlib_generated_col2im_kernels.cu.o.cmake
 
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_convolutional_kernels.cu.o: ../src/activations.h
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_convolutional_kernels.cu.o: ../src/batchnorm_layer.h
@@ -492,10 +492,10 @@ CMakeFiles/darknetlib.dir/src/./darknetlib_generated_convolutional_kernels.cu.o:
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_convolutional_kernels.cu.o: /usr/local/cuda-8.0/include/vector_types.h
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_convolutional_kernels.cu.o: CMakeFiles/darknetlib.dir/src/darknetlib_generated_convolutional_kernels.cu.o.cmake
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_convolutional_kernels.cu.o: ../src/convolutional_kernels.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object CMakeFiles/darknetlib.dir/src/./darknetlib_generated_convolutional_kernels.cu.o"
-	cd /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -E make_directory /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/.
-	cd /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_convolutional_kernels.cu.o -D generated_cubin_file:STRING=/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_convolutional_kernels.cu.o.cubin.txt -P /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/darknetlib_generated_convolutional_kernels.cu.o.cmake
+	cd /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -E make_directory /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/.
+	cd /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_convolutional_kernels.cu.o -D generated_cubin_file:STRING=/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_convolutional_kernels.cu.o.cubin.txt -P /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/darknetlib_generated_convolutional_kernels.cu.o.cmake
 
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_crop_layer_kernels.cu.o: ../src/activations.h
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_crop_layer_kernels.cu.o: ../src/box.h
@@ -643,10 +643,10 @@ CMakeFiles/darknetlib.dir/src/./darknetlib_generated_crop_layer_kernels.cu.o: /u
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_crop_layer_kernels.cu.o: /usr/local/cuda-8.0/include/vector_types.h
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_crop_layer_kernels.cu.o: CMakeFiles/darknetlib.dir/src/darknetlib_generated_crop_layer_kernels.cu.o.cmake
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_crop_layer_kernels.cu.o: ../src/crop_layer_kernels.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object CMakeFiles/darknetlib.dir/src/./darknetlib_generated_crop_layer_kernels.cu.o"
-	cd /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -E make_directory /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/.
-	cd /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_crop_layer_kernels.cu.o -D generated_cubin_file:STRING=/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_crop_layer_kernels.cu.o.cubin.txt -P /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/darknetlib_generated_crop_layer_kernels.cu.o.cmake
+	cd /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -E make_directory /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/.
+	cd /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_crop_layer_kernels.cu.o -D generated_cubin_file:STRING=/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_crop_layer_kernels.cu.o.cubin.txt -P /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/darknetlib_generated_crop_layer_kernels.cu.o.cmake
 
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_dropout_layer_kernels.cu.o: ../src/activations.h
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_dropout_layer_kernels.cu.o: ../src/box.h
@@ -794,10 +794,10 @@ CMakeFiles/darknetlib.dir/src/./darknetlib_generated_dropout_layer_kernels.cu.o:
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_dropout_layer_kernels.cu.o: /usr/local/cuda-8.0/include/vector_types.h
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_dropout_layer_kernels.cu.o: CMakeFiles/darknetlib.dir/src/darknetlib_generated_dropout_layer_kernels.cu.o.cmake
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_dropout_layer_kernels.cu.o: ../src/dropout_layer_kernels.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object CMakeFiles/darknetlib.dir/src/./darknetlib_generated_dropout_layer_kernels.cu.o"
-	cd /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -E make_directory /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/.
-	cd /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_dropout_layer_kernels.cu.o -D generated_cubin_file:STRING=/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_dropout_layer_kernels.cu.o.cubin.txt -P /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/darknetlib_generated_dropout_layer_kernels.cu.o.cmake
+	cd /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -E make_directory /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/.
+	cd /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_dropout_layer_kernels.cu.o -D generated_cubin_file:STRING=/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_dropout_layer_kernels.cu.o.cubin.txt -P /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/darknetlib_generated_dropout_layer_kernels.cu.o.cmake
 
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_blas_kernels.cu.o: ../src/blas.h
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_blas_kernels.cu.o: ../src/blas_kernels.cu
@@ -932,10 +932,10 @@ CMakeFiles/darknetlib.dir/src/./darknetlib_generated_blas_kernels.cu.o: /usr/loc
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_blas_kernels.cu.o: /usr/local/cuda-8.0/include/vector_types.h
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_blas_kernels.cu.o: CMakeFiles/darknetlib.dir/src/darknetlib_generated_blas_kernels.cu.o.cmake
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_blas_kernels.cu.o: ../src/blas_kernels.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object CMakeFiles/darknetlib.dir/src/./darknetlib_generated_blas_kernels.cu.o"
-	cd /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -E make_directory /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/.
-	cd /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_blas_kernels.cu.o -D generated_cubin_file:STRING=/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_blas_kernels.cu.o.cubin.txt -P /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/darknetlib_generated_blas_kernels.cu.o.cmake
+	cd /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -E make_directory /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/.
+	cd /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_blas_kernels.cu.o -D generated_cubin_file:STRING=/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_blas_kernels.cu.o.cubin.txt -P /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/darknetlib_generated_blas_kernels.cu.o.cmake
 
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_network_kernels.cu.o: ../src/activation_layer.h
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_network_kernels.cu.o: ../src/activations.h
@@ -1104,10 +1104,10 @@ CMakeFiles/darknetlib.dir/src/./darknetlib_generated_network_kernels.cu.o: /usr/
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_network_kernels.cu.o: /usr/local/cuda-8.0/include/vector_types.h
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_network_kernels.cu.o: CMakeFiles/darknetlib.dir/src/darknetlib_generated_network_kernels.cu.o.cmake
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_network_kernels.cu.o: ../src/network_kernels.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object CMakeFiles/darknetlib.dir/src/./darknetlib_generated_network_kernels.cu.o"
-	cd /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -E make_directory /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/.
-	cd /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_network_kernels.cu.o -D generated_cubin_file:STRING=/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_network_kernels.cu.o.cubin.txt -P /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/darknetlib_generated_network_kernels.cu.o.cmake
+	cd /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -E make_directory /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/.
+	cd /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_network_kernels.cu.o -D generated_cubin_file:STRING=/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_network_kernels.cu.o.cubin.txt -P /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/darknetlib_generated_network_kernels.cu.o.cmake
 
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_maxpool_layer_kernels.cu.o: ../src/activations.h
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_maxpool_layer_kernels.cu.o: ../src/box.h
@@ -1254,10 +1254,10 @@ CMakeFiles/darknetlib.dir/src/./darknetlib_generated_maxpool_layer_kernels.cu.o:
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_maxpool_layer_kernels.cu.o: /usr/local/cuda-8.0/include/vector_types.h
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_maxpool_layer_kernels.cu.o: CMakeFiles/darknetlib.dir/src/darknetlib_generated_maxpool_layer_kernels.cu.o.cmake
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_maxpool_layer_kernels.cu.o: ../src/maxpool_layer_kernels.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object CMakeFiles/darknetlib.dir/src/./darknetlib_generated_maxpool_layer_kernels.cu.o"
-	cd /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -E make_directory /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/.
-	cd /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_maxpool_layer_kernels.cu.o -D generated_cubin_file:STRING=/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_maxpool_layer_kernels.cu.o.cubin.txt -P /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/darknetlib_generated_maxpool_layer_kernels.cu.o.cmake
+	cd /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -E make_directory /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/.
+	cd /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_maxpool_layer_kernels.cu.o -D generated_cubin_file:STRING=/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_maxpool_layer_kernels.cu.o.cubin.txt -P /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/darknetlib_generated_maxpool_layer_kernels.cu.o.cmake
 
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_avgpool_layer_kernels.cu.o: ../src/activations.h
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_avgpool_layer_kernels.cu.o: ../src/avgpool_layer.h
@@ -1404,10 +1404,10 @@ CMakeFiles/darknetlib.dir/src/./darknetlib_generated_avgpool_layer_kernels.cu.o:
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_avgpool_layer_kernels.cu.o: /usr/local/cuda-8.0/include/vector_types.h
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_avgpool_layer_kernels.cu.o: CMakeFiles/darknetlib.dir/src/darknetlib_generated_avgpool_layer_kernels.cu.o.cmake
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_avgpool_layer_kernels.cu.o: ../src/avgpool_layer_kernels.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object CMakeFiles/darknetlib.dir/src/./darknetlib_generated_avgpool_layer_kernels.cu.o"
-	cd /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -E make_directory /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/.
-	cd /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_avgpool_layer_kernels.cu.o -D generated_cubin_file:STRING=/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_avgpool_layer_kernels.cu.o.cubin.txt -P /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/darknetlib_generated_avgpool_layer_kernels.cu.o.cmake
+	cd /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -E make_directory /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/.
+	cd /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_avgpool_layer_kernels.cu.o -D generated_cubin_file:STRING=/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_avgpool_layer_kernels.cu.o.cubin.txt -P /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/darknetlib_generated_avgpool_layer_kernels.cu.o.cmake
 
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_im2col_kernels.cu.o: ../src/cuda.h
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_im2col_kernels.cu.o: ../src/im2col.h
@@ -1540,10 +1540,10 @@ CMakeFiles/darknetlib.dir/src/./darknetlib_generated_im2col_kernels.cu.o: /usr/l
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_im2col_kernels.cu.o: /usr/local/cuda-8.0/include/vector_types.h
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_im2col_kernels.cu.o: CMakeFiles/darknetlib.dir/src/darknetlib_generated_im2col_kernels.cu.o.cmake
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_im2col_kernels.cu.o: ../src/im2col_kernels.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object CMakeFiles/darknetlib.dir/src/./darknetlib_generated_im2col_kernels.cu.o"
-	cd /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -E make_directory /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/.
-	cd /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_im2col_kernels.cu.o -D generated_cubin_file:STRING=/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_im2col_kernels.cu.o.cubin.txt -P /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/darknetlib_generated_im2col_kernels.cu.o.cmake
+	cd /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -E make_directory /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/.
+	cd /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_im2col_kernels.cu.o -D generated_cubin_file:STRING=/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_im2col_kernels.cu.o.cubin.txt -P /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/darknetlib_generated_im2col_kernels.cu.o.cmake
 
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_activation_kernels.cu.o: ../src/activation_kernels.cu
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_activation_kernels.cu.o: ../src/activations.h
@@ -1676,24 +1676,24 @@ CMakeFiles/darknetlib.dir/src/./darknetlib_generated_activation_kernels.cu.o: /u
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_activation_kernels.cu.o: /usr/local/cuda-8.0/include/vector_types.h
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_activation_kernels.cu.o: CMakeFiles/darknetlib.dir/src/darknetlib_generated_activation_kernels.cu.o.cmake
 CMakeFiles/darknetlib.dir/src/./darknetlib_generated_activation_kernels.cu.o: ../src/activation_kernels.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object CMakeFiles/darknetlib.dir/src/./darknetlib_generated_activation_kernels.cu.o"
-	cd /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -E make_directory /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/.
-	cd /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_activation_kernels.cu.o -D generated_cubin_file:STRING=/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_activation_kernels.cu.o.cubin.txt -P /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/darknetlib_generated_activation_kernels.cu.o.cmake
+	cd /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -E make_directory /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/.
+	cd /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_activation_kernels.cu.o -D generated_cubin_file:STRING=/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_activation_kernels.cu.o.cubin.txt -P /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/darknetlib_generated_activation_kernels.cu.o.cmake
 
 CMakeFiles/darknetlib.dir/src/list.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/list.o: ../src/list.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/list.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/list.o   -c /home/hxhx/darknet/neural-cam/src/list.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/list.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/list.c
 
 CMakeFiles/darknetlib.dir/src/list.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/list.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/list.c > CMakeFiles/darknetlib.dir/src/list.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/list.c > CMakeFiles/darknetlib.dir/src/list.i
 
 CMakeFiles/darknetlib.dir/src/list.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/list.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/list.c -o CMakeFiles/darknetlib.dir/src/list.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/list.c -o CMakeFiles/darknetlib.dir/src/list.s
 
 CMakeFiles/darknetlib.dir/src/list.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/list.o.requires
@@ -1706,17 +1706,17 @@ CMakeFiles/darknetlib.dir/src/list.o.provides.build: CMakeFiles/darknetlib.dir/s
 
 CMakeFiles/darknetlib.dir/src/box.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/box.o: ../src/box.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/box.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/box.o   -c /home/hxhx/darknet/neural-cam/src/box.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/box.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/box.c
 
 CMakeFiles/darknetlib.dir/src/box.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/box.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/box.c > CMakeFiles/darknetlib.dir/src/box.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/box.c > CMakeFiles/darknetlib.dir/src/box.i
 
 CMakeFiles/darknetlib.dir/src/box.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/box.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/box.c -o CMakeFiles/darknetlib.dir/src/box.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/box.c -o CMakeFiles/darknetlib.dir/src/box.s
 
 CMakeFiles/darknetlib.dir/src/box.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/box.o.requires
@@ -1729,17 +1729,17 @@ CMakeFiles/darknetlib.dir/src/box.o.provides.build: CMakeFiles/darknetlib.dir/sr
 
 CMakeFiles/darknetlib.dir/src/crnn_layer.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/crnn_layer.o: ../src/crnn_layer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/crnn_layer.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/crnn_layer.o   -c /home/hxhx/darknet/neural-cam/src/crnn_layer.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/crnn_layer.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/crnn_layer.c
 
 CMakeFiles/darknetlib.dir/src/crnn_layer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/crnn_layer.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/crnn_layer.c > CMakeFiles/darknetlib.dir/src/crnn_layer.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/crnn_layer.c > CMakeFiles/darknetlib.dir/src/crnn_layer.i
 
 CMakeFiles/darknetlib.dir/src/crnn_layer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/crnn_layer.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/crnn_layer.c -o CMakeFiles/darknetlib.dir/src/crnn_layer.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/crnn_layer.c -o CMakeFiles/darknetlib.dir/src/crnn_layer.s
 
 CMakeFiles/darknetlib.dir/src/crnn_layer.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/crnn_layer.o.requires
@@ -1752,17 +1752,17 @@ CMakeFiles/darknetlib.dir/src/crnn_layer.o.provides.build: CMakeFiles/darknetlib
 
 CMakeFiles/darknetlib.dir/src/activation_layer.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/activation_layer.o: ../src/activation_layer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/activation_layer.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/activation_layer.o   -c /home/hxhx/darknet/neural-cam/src/activation_layer.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/activation_layer.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/activation_layer.c
 
 CMakeFiles/darknetlib.dir/src/activation_layer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/activation_layer.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/activation_layer.c > CMakeFiles/darknetlib.dir/src/activation_layer.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/activation_layer.c > CMakeFiles/darknetlib.dir/src/activation_layer.i
 
 CMakeFiles/darknetlib.dir/src/activation_layer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/activation_layer.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/activation_layer.c -o CMakeFiles/darknetlib.dir/src/activation_layer.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/activation_layer.c -o CMakeFiles/darknetlib.dir/src/activation_layer.s
 
 CMakeFiles/darknetlib.dir/src/activation_layer.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/activation_layer.o.requires
@@ -1775,17 +1775,17 @@ CMakeFiles/darknetlib.dir/src/activation_layer.o.provides.build: CMakeFiles/dark
 
 CMakeFiles/darknetlib.dir/src/layer.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/layer.o: ../src/layer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/layer.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/layer.o   -c /home/hxhx/darknet/neural-cam/src/layer.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/layer.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/layer.c
 
 CMakeFiles/darknetlib.dir/src/layer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/layer.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/layer.c > CMakeFiles/darknetlib.dir/src/layer.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/layer.c > CMakeFiles/darknetlib.dir/src/layer.i
 
 CMakeFiles/darknetlib.dir/src/layer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/layer.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/layer.c -o CMakeFiles/darknetlib.dir/src/layer.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/layer.c -o CMakeFiles/darknetlib.dir/src/layer.s
 
 CMakeFiles/darknetlib.dir/src/layer.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/layer.o.requires
@@ -1798,17 +1798,17 @@ CMakeFiles/darknetlib.dir/src/layer.o.provides.build: CMakeFiles/darknetlib.dir/
 
 CMakeFiles/darknetlib.dir/src/rnn_layer.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/rnn_layer.o: ../src/rnn_layer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/rnn_layer.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/rnn_layer.o   -c /home/hxhx/darknet/neural-cam/src/rnn_layer.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/rnn_layer.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/rnn_layer.c
 
 CMakeFiles/darknetlib.dir/src/rnn_layer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/rnn_layer.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/rnn_layer.c > CMakeFiles/darknetlib.dir/src/rnn_layer.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/rnn_layer.c > CMakeFiles/darknetlib.dir/src/rnn_layer.i
 
 CMakeFiles/darknetlib.dir/src/rnn_layer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/rnn_layer.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/rnn_layer.c -o CMakeFiles/darknetlib.dir/src/rnn_layer.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/rnn_layer.c -o CMakeFiles/darknetlib.dir/src/rnn_layer.s
 
 CMakeFiles/darknetlib.dir/src/rnn_layer.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/rnn_layer.o.requires
@@ -1821,17 +1821,17 @@ CMakeFiles/darknetlib.dir/src/rnn_layer.o.provides.build: CMakeFiles/darknetlib.
 
 CMakeFiles/darknetlib.dir/src/im2col.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/im2col.o: ../src/im2col.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/im2col.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/im2col.o   -c /home/hxhx/darknet/neural-cam/src/im2col.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/im2col.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/im2col.c
 
 CMakeFiles/darknetlib.dir/src/im2col.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/im2col.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/im2col.c > CMakeFiles/darknetlib.dir/src/im2col.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/im2col.c > CMakeFiles/darknetlib.dir/src/im2col.i
 
 CMakeFiles/darknetlib.dir/src/im2col.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/im2col.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/im2col.c -o CMakeFiles/darknetlib.dir/src/im2col.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/im2col.c -o CMakeFiles/darknetlib.dir/src/im2col.s
 
 CMakeFiles/darknetlib.dir/src/im2col.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/im2col.o.requires
@@ -1844,17 +1844,17 @@ CMakeFiles/darknetlib.dir/src/im2col.o.provides.build: CMakeFiles/darknetlib.dir
 
 CMakeFiles/darknetlib.dir/src/utils.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/utils.o: ../src/utils.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/utils.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/utils.o   -c /home/hxhx/darknet/neural-cam/src/utils.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/utils.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/utils.c
 
 CMakeFiles/darknetlib.dir/src/utils.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/utils.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/utils.c > CMakeFiles/darknetlib.dir/src/utils.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/utils.c > CMakeFiles/darknetlib.dir/src/utils.i
 
 CMakeFiles/darknetlib.dir/src/utils.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/utils.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/utils.c -o CMakeFiles/darknetlib.dir/src/utils.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/utils.c -o CMakeFiles/darknetlib.dir/src/utils.s
 
 CMakeFiles/darknetlib.dir/src/utils.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/utils.o.requires
@@ -1867,17 +1867,17 @@ CMakeFiles/darknetlib.dir/src/utils.o.provides.build: CMakeFiles/darknetlib.dir/
 
 CMakeFiles/darknetlib.dir/src/parser.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/parser.o: ../src/parser.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/parser.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/parser.o   -c /home/hxhx/darknet/neural-cam/src/parser.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/parser.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/parser.c
 
 CMakeFiles/darknetlib.dir/src/parser.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/parser.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/parser.c > CMakeFiles/darknetlib.dir/src/parser.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/parser.c > CMakeFiles/darknetlib.dir/src/parser.i
 
 CMakeFiles/darknetlib.dir/src/parser.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/parser.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/parser.c -o CMakeFiles/darknetlib.dir/src/parser.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/parser.c -o CMakeFiles/darknetlib.dir/src/parser.s
 
 CMakeFiles/darknetlib.dir/src/parser.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/parser.o.requires
@@ -1890,17 +1890,17 @@ CMakeFiles/darknetlib.dir/src/parser.o.provides.build: CMakeFiles/darknetlib.dir
 
 CMakeFiles/darknetlib.dir/src/matrix.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/matrix.o: ../src/matrix.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/matrix.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/matrix.o   -c /home/hxhx/darknet/neural-cam/src/matrix.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/matrix.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/matrix.c
 
 CMakeFiles/darknetlib.dir/src/matrix.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/matrix.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/matrix.c > CMakeFiles/darknetlib.dir/src/matrix.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/matrix.c > CMakeFiles/darknetlib.dir/src/matrix.i
 
 CMakeFiles/darknetlib.dir/src/matrix.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/matrix.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/matrix.c -o CMakeFiles/darknetlib.dir/src/matrix.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/matrix.c -o CMakeFiles/darknetlib.dir/src/matrix.s
 
 CMakeFiles/darknetlib.dir/src/matrix.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/matrix.o.requires
@@ -1913,17 +1913,17 @@ CMakeFiles/darknetlib.dir/src/matrix.o.provides.build: CMakeFiles/darknetlib.dir
 
 CMakeFiles/darknetlib.dir/src/col2im.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/col2im.o: ../src/col2im.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/col2im.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/col2im.o   -c /home/hxhx/darknet/neural-cam/src/col2im.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/col2im.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/col2im.c
 
 CMakeFiles/darknetlib.dir/src/col2im.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/col2im.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/col2im.c > CMakeFiles/darknetlib.dir/src/col2im.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/col2im.c > CMakeFiles/darknetlib.dir/src/col2im.i
 
 CMakeFiles/darknetlib.dir/src/col2im.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/col2im.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/col2im.c -o CMakeFiles/darknetlib.dir/src/col2im.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/col2im.c -o CMakeFiles/darknetlib.dir/src/col2im.s
 
 CMakeFiles/darknetlib.dir/src/col2im.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/col2im.o.requires
@@ -1936,17 +1936,17 @@ CMakeFiles/darknetlib.dir/src/col2im.o.provides.build: CMakeFiles/darknetlib.dir
 
 CMakeFiles/darknetlib.dir/src/softmax_layer.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/softmax_layer.o: ../src/softmax_layer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/softmax_layer.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/softmax_layer.o   -c /home/hxhx/darknet/neural-cam/src/softmax_layer.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/softmax_layer.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/softmax_layer.c
 
 CMakeFiles/darknetlib.dir/src/softmax_layer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/softmax_layer.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/softmax_layer.c > CMakeFiles/darknetlib.dir/src/softmax_layer.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/softmax_layer.c > CMakeFiles/darknetlib.dir/src/softmax_layer.i
 
 CMakeFiles/darknetlib.dir/src/softmax_layer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/softmax_layer.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/softmax_layer.c -o CMakeFiles/darknetlib.dir/src/softmax_layer.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/softmax_layer.c -o CMakeFiles/darknetlib.dir/src/softmax_layer.s
 
 CMakeFiles/darknetlib.dir/src/softmax_layer.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/softmax_layer.o.requires
@@ -1959,17 +1959,17 @@ CMakeFiles/darknetlib.dir/src/softmax_layer.o.provides.build: CMakeFiles/darknet
 
 CMakeFiles/darknetlib.dir/src/cost_layer.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/cost_layer.o: ../src/cost_layer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/cost_layer.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/cost_layer.o   -c /home/hxhx/darknet/neural-cam/src/cost_layer.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/cost_layer.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/cost_layer.c
 
 CMakeFiles/darknetlib.dir/src/cost_layer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/cost_layer.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/cost_layer.c > CMakeFiles/darknetlib.dir/src/cost_layer.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/cost_layer.c > CMakeFiles/darknetlib.dir/src/cost_layer.i
 
 CMakeFiles/darknetlib.dir/src/cost_layer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/cost_layer.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/cost_layer.c -o CMakeFiles/darknetlib.dir/src/cost_layer.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/cost_layer.c -o CMakeFiles/darknetlib.dir/src/cost_layer.s
 
 CMakeFiles/darknetlib.dir/src/cost_layer.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/cost_layer.o.requires
@@ -1982,17 +1982,17 @@ CMakeFiles/darknetlib.dir/src/cost_layer.o.provides.build: CMakeFiles/darknetlib
 
 CMakeFiles/darknetlib.dir/src/cuda.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/cuda.o: ../src/cuda.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/cuda.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/cuda.o   -c /home/hxhx/darknet/neural-cam/src/cuda.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/cuda.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/cuda.c
 
 CMakeFiles/darknetlib.dir/src/cuda.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/cuda.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/cuda.c > CMakeFiles/darknetlib.dir/src/cuda.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/cuda.c > CMakeFiles/darknetlib.dir/src/cuda.i
 
 CMakeFiles/darknetlib.dir/src/cuda.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/cuda.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/cuda.c -o CMakeFiles/darknetlib.dir/src/cuda.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/cuda.c -o CMakeFiles/darknetlib.dir/src/cuda.s
 
 CMakeFiles/darknetlib.dir/src/cuda.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/cuda.o.requires
@@ -2005,17 +2005,17 @@ CMakeFiles/darknetlib.dir/src/cuda.o.provides.build: CMakeFiles/darknetlib.dir/s
 
 CMakeFiles/darknetlib.dir/src/deconvolutional_layer.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/deconvolutional_layer.o: ../src/deconvolutional_layer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/deconvolutional_layer.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/deconvolutional_layer.o   -c /home/hxhx/darknet/neural-cam/src/deconvolutional_layer.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/deconvolutional_layer.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/deconvolutional_layer.c
 
 CMakeFiles/darknetlib.dir/src/deconvolutional_layer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/deconvolutional_layer.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/deconvolutional_layer.c > CMakeFiles/darknetlib.dir/src/deconvolutional_layer.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/deconvolutional_layer.c > CMakeFiles/darknetlib.dir/src/deconvolutional_layer.i
 
 CMakeFiles/darknetlib.dir/src/deconvolutional_layer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/deconvolutional_layer.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/deconvolutional_layer.c -o CMakeFiles/darknetlib.dir/src/deconvolutional_layer.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/deconvolutional_layer.c -o CMakeFiles/darknetlib.dir/src/deconvolutional_layer.s
 
 CMakeFiles/darknetlib.dir/src/deconvolutional_layer.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/deconvolutional_layer.o.requires
@@ -2028,17 +2028,17 @@ CMakeFiles/darknetlib.dir/src/deconvolutional_layer.o.provides.build: CMakeFiles
 
 CMakeFiles/darknetlib.dir/src/maxpool_layer.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/maxpool_layer.o: ../src/maxpool_layer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/maxpool_layer.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/maxpool_layer.o   -c /home/hxhx/darknet/neural-cam/src/maxpool_layer.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/maxpool_layer.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/maxpool_layer.c
 
 CMakeFiles/darknetlib.dir/src/maxpool_layer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/maxpool_layer.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/maxpool_layer.c > CMakeFiles/darknetlib.dir/src/maxpool_layer.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/maxpool_layer.c > CMakeFiles/darknetlib.dir/src/maxpool_layer.i
 
 CMakeFiles/darknetlib.dir/src/maxpool_layer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/maxpool_layer.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/maxpool_layer.c -o CMakeFiles/darknetlib.dir/src/maxpool_layer.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/maxpool_layer.c -o CMakeFiles/darknetlib.dir/src/maxpool_layer.s
 
 CMakeFiles/darknetlib.dir/src/maxpool_layer.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/maxpool_layer.o.requires
@@ -2051,17 +2051,17 @@ CMakeFiles/darknetlib.dir/src/maxpool_layer.o.provides.build: CMakeFiles/darknet
 
 CMakeFiles/darknetlib.dir/src/route_layer.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/route_layer.o: ../src/route_layer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/route_layer.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/route_layer.o   -c /home/hxhx/darknet/neural-cam/src/route_layer.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/route_layer.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/route_layer.c
 
 CMakeFiles/darknetlib.dir/src/route_layer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/route_layer.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/route_layer.c > CMakeFiles/darknetlib.dir/src/route_layer.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/route_layer.c > CMakeFiles/darknetlib.dir/src/route_layer.i
 
 CMakeFiles/darknetlib.dir/src/route_layer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/route_layer.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/route_layer.c -o CMakeFiles/darknetlib.dir/src/route_layer.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/route_layer.c -o CMakeFiles/darknetlib.dir/src/route_layer.s
 
 CMakeFiles/darknetlib.dir/src/route_layer.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/route_layer.o.requires
@@ -2074,17 +2074,17 @@ CMakeFiles/darknetlib.dir/src/route_layer.o.provides.build: CMakeFiles/darknetli
 
 CMakeFiles/darknetlib.dir/src/crop_layer.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/crop_layer.o: ../src/crop_layer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/crop_layer.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/crop_layer.o   -c /home/hxhx/darknet/neural-cam/src/crop_layer.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/crop_layer.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/crop_layer.c
 
 CMakeFiles/darknetlib.dir/src/crop_layer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/crop_layer.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/crop_layer.c > CMakeFiles/darknetlib.dir/src/crop_layer.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/crop_layer.c > CMakeFiles/darknetlib.dir/src/crop_layer.i
 
 CMakeFiles/darknetlib.dir/src/crop_layer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/crop_layer.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/crop_layer.c -o CMakeFiles/darknetlib.dir/src/crop_layer.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/crop_layer.c -o CMakeFiles/darknetlib.dir/src/crop_layer.s
 
 CMakeFiles/darknetlib.dir/src/crop_layer.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/crop_layer.o.requires
@@ -2097,17 +2097,17 @@ CMakeFiles/darknetlib.dir/src/crop_layer.o.provides.build: CMakeFiles/darknetlib
 
 CMakeFiles/darknetlib.dir/src/region_layer.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/region_layer.o: ../src/region_layer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/region_layer.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/region_layer.o   -c /home/hxhx/darknet/neural-cam/src/region_layer.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/region_layer.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/region_layer.c
 
 CMakeFiles/darknetlib.dir/src/region_layer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/region_layer.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/region_layer.c > CMakeFiles/darknetlib.dir/src/region_layer.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/region_layer.c > CMakeFiles/darknetlib.dir/src/region_layer.i
 
 CMakeFiles/darknetlib.dir/src/region_layer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/region_layer.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/region_layer.c -o CMakeFiles/darknetlib.dir/src/region_layer.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/region_layer.c -o CMakeFiles/darknetlib.dir/src/region_layer.s
 
 CMakeFiles/darknetlib.dir/src/region_layer.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/region_layer.o.requires
@@ -2120,17 +2120,17 @@ CMakeFiles/darknetlib.dir/src/region_layer.o.provides.build: CMakeFiles/darknetl
 
 CMakeFiles/darknetlib.dir/src/normalization_layer.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/normalization_layer.o: ../src/normalization_layer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/normalization_layer.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/normalization_layer.o   -c /home/hxhx/darknet/neural-cam/src/normalization_layer.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/normalization_layer.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/normalization_layer.c
 
 CMakeFiles/darknetlib.dir/src/normalization_layer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/normalization_layer.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/normalization_layer.c > CMakeFiles/darknetlib.dir/src/normalization_layer.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/normalization_layer.c > CMakeFiles/darknetlib.dir/src/normalization_layer.i
 
 CMakeFiles/darknetlib.dir/src/normalization_layer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/normalization_layer.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/normalization_layer.c -o CMakeFiles/darknetlib.dir/src/normalization_layer.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/normalization_layer.c -o CMakeFiles/darknetlib.dir/src/normalization_layer.s
 
 CMakeFiles/darknetlib.dir/src/normalization_layer.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/normalization_layer.o.requires
@@ -2143,17 +2143,17 @@ CMakeFiles/darknetlib.dir/src/normalization_layer.o.provides.build: CMakeFiles/d
 
 CMakeFiles/darknetlib.dir/src/shortcut_layer.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/shortcut_layer.o: ../src/shortcut_layer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/shortcut_layer.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/shortcut_layer.o   -c /home/hxhx/darknet/neural-cam/src/shortcut_layer.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/shortcut_layer.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/shortcut_layer.c
 
 CMakeFiles/darknetlib.dir/src/shortcut_layer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/shortcut_layer.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/shortcut_layer.c > CMakeFiles/darknetlib.dir/src/shortcut_layer.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/shortcut_layer.c > CMakeFiles/darknetlib.dir/src/shortcut_layer.i
 
 CMakeFiles/darknetlib.dir/src/shortcut_layer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/shortcut_layer.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/shortcut_layer.c -o CMakeFiles/darknetlib.dir/src/shortcut_layer.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/shortcut_layer.c -o CMakeFiles/darknetlib.dir/src/shortcut_layer.s
 
 CMakeFiles/darknetlib.dir/src/shortcut_layer.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/shortcut_layer.o.requires
@@ -2166,17 +2166,17 @@ CMakeFiles/darknetlib.dir/src/shortcut_layer.o.provides.build: CMakeFiles/darkne
 
 CMakeFiles/darknetlib.dir/src/image.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/image.o: ../src/image.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/image.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/image.o   -c /home/hxhx/darknet/neural-cam/src/image.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/image.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/image.c
 
 CMakeFiles/darknetlib.dir/src/image.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/image.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/image.c > CMakeFiles/darknetlib.dir/src/image.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/image.c > CMakeFiles/darknetlib.dir/src/image.i
 
 CMakeFiles/darknetlib.dir/src/image.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/image.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/image.c -o CMakeFiles/darknetlib.dir/src/image.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/image.c -o CMakeFiles/darknetlib.dir/src/image.s
 
 CMakeFiles/darknetlib.dir/src/image.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/image.o.requires
@@ -2189,17 +2189,17 @@ CMakeFiles/darknetlib.dir/src/image.o.provides.build: CMakeFiles/darknetlib.dir/
 
 CMakeFiles/darknetlib.dir/src/detection_layer.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/detection_layer.o: ../src/detection_layer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/detection_layer.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/detection_layer.o   -c /home/hxhx/darknet/neural-cam/src/detection_layer.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/detection_layer.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/detection_layer.c
 
 CMakeFiles/darknetlib.dir/src/detection_layer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/detection_layer.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/detection_layer.c > CMakeFiles/darknetlib.dir/src/detection_layer.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/detection_layer.c > CMakeFiles/darknetlib.dir/src/detection_layer.i
 
 CMakeFiles/darknetlib.dir/src/detection_layer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/detection_layer.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/detection_layer.c -o CMakeFiles/darknetlib.dir/src/detection_layer.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/detection_layer.c -o CMakeFiles/darknetlib.dir/src/detection_layer.s
 
 CMakeFiles/darknetlib.dir/src/detection_layer.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/detection_layer.o.requires
@@ -2212,17 +2212,17 @@ CMakeFiles/darknetlib.dir/src/detection_layer.o.provides.build: CMakeFiles/darkn
 
 CMakeFiles/darknetlib.dir/src/activations.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/activations.o: ../src/activations.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/activations.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/activations.o   -c /home/hxhx/darknet/neural-cam/src/activations.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/activations.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/activations.c
 
 CMakeFiles/darknetlib.dir/src/activations.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/activations.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/activations.c > CMakeFiles/darknetlib.dir/src/activations.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/activations.c > CMakeFiles/darknetlib.dir/src/activations.i
 
 CMakeFiles/darknetlib.dir/src/activations.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/activations.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/activations.c -o CMakeFiles/darknetlib.dir/src/activations.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/activations.c -o CMakeFiles/darknetlib.dir/src/activations.s
 
 CMakeFiles/darknetlib.dir/src/activations.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/activations.o.requires
@@ -2235,17 +2235,17 @@ CMakeFiles/darknetlib.dir/src/activations.o.provides.build: CMakeFiles/darknetli
 
 CMakeFiles/darknetlib.dir/src/batchnorm_layer.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/batchnorm_layer.o: ../src/batchnorm_layer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/batchnorm_layer.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/batchnorm_layer.o   -c /home/hxhx/darknet/neural-cam/src/batchnorm_layer.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/batchnorm_layer.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/batchnorm_layer.c
 
 CMakeFiles/darknetlib.dir/src/batchnorm_layer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/batchnorm_layer.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/batchnorm_layer.c > CMakeFiles/darknetlib.dir/src/batchnorm_layer.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/batchnorm_layer.c > CMakeFiles/darknetlib.dir/src/batchnorm_layer.i
 
 CMakeFiles/darknetlib.dir/src/batchnorm_layer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/batchnorm_layer.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/batchnorm_layer.c -o CMakeFiles/darknetlib.dir/src/batchnorm_layer.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/batchnorm_layer.c -o CMakeFiles/darknetlib.dir/src/batchnorm_layer.s
 
 CMakeFiles/darknetlib.dir/src/batchnorm_layer.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/batchnorm_layer.o.requires
@@ -2258,17 +2258,17 @@ CMakeFiles/darknetlib.dir/src/batchnorm_layer.o.provides.build: CMakeFiles/darkn
 
 CMakeFiles/darknetlib.dir/src/blas.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/blas.o: ../src/blas.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/blas.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/blas.o   -c /home/hxhx/darknet/neural-cam/src/blas.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/blas.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/blas.c
 
 CMakeFiles/darknetlib.dir/src/blas.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/blas.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/blas.c > CMakeFiles/darknetlib.dir/src/blas.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/blas.c > CMakeFiles/darknetlib.dir/src/blas.i
 
 CMakeFiles/darknetlib.dir/src/blas.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/blas.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/blas.c -o CMakeFiles/darknetlib.dir/src/blas.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/blas.c -o CMakeFiles/darknetlib.dir/src/blas.s
 
 CMakeFiles/darknetlib.dir/src/blas.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/blas.o.requires
@@ -2281,17 +2281,17 @@ CMakeFiles/darknetlib.dir/src/blas.o.provides.build: CMakeFiles/darknetlib.dir/s
 
 CMakeFiles/darknetlib.dir/src/data.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/data.o: ../src/data.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/data.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/data.o   -c /home/hxhx/darknet/neural-cam/src/data.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/data.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/data.c
 
 CMakeFiles/darknetlib.dir/src/data.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/data.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/data.c > CMakeFiles/darknetlib.dir/src/data.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/data.c > CMakeFiles/darknetlib.dir/src/data.i
 
 CMakeFiles/darknetlib.dir/src/data.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/data.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/data.c -o CMakeFiles/darknetlib.dir/src/data.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/data.c -o CMakeFiles/darknetlib.dir/src/data.s
 
 CMakeFiles/darknetlib.dir/src/data.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/data.o.requires
@@ -2304,17 +2304,17 @@ CMakeFiles/darknetlib.dir/src/data.o.provides.build: CMakeFiles/darknetlib.dir/s
 
 CMakeFiles/darknetlib.dir/src/gru_layer.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/gru_layer.o: ../src/gru_layer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/gru_layer.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/gru_layer.o   -c /home/hxhx/darknet/neural-cam/src/gru_layer.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/gru_layer.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/gru_layer.c
 
 CMakeFiles/darknetlib.dir/src/gru_layer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/gru_layer.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/gru_layer.c > CMakeFiles/darknetlib.dir/src/gru_layer.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/gru_layer.c > CMakeFiles/darknetlib.dir/src/gru_layer.i
 
 CMakeFiles/darknetlib.dir/src/gru_layer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/gru_layer.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/gru_layer.c -o CMakeFiles/darknetlib.dir/src/gru_layer.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/gru_layer.c -o CMakeFiles/darknetlib.dir/src/gru_layer.s
 
 CMakeFiles/darknetlib.dir/src/gru_layer.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/gru_layer.o.requires
@@ -2327,17 +2327,17 @@ CMakeFiles/darknetlib.dir/src/gru_layer.o.provides.build: CMakeFiles/darknetlib.
 
 CMakeFiles/darknetlib.dir/src/reorg_layer.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/reorg_layer.o: ../src/reorg_layer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/reorg_layer.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/reorg_layer.o   -c /home/hxhx/darknet/neural-cam/src/reorg_layer.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/reorg_layer.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/reorg_layer.c
 
 CMakeFiles/darknetlib.dir/src/reorg_layer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/reorg_layer.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/reorg_layer.c > CMakeFiles/darknetlib.dir/src/reorg_layer.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/reorg_layer.c > CMakeFiles/darknetlib.dir/src/reorg_layer.i
 
 CMakeFiles/darknetlib.dir/src/reorg_layer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/reorg_layer.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/reorg_layer.c -o CMakeFiles/darknetlib.dir/src/reorg_layer.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/reorg_layer.c -o CMakeFiles/darknetlib.dir/src/reorg_layer.s
 
 CMakeFiles/darknetlib.dir/src/reorg_layer.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/reorg_layer.o.requires
@@ -2350,17 +2350,17 @@ CMakeFiles/darknetlib.dir/src/reorg_layer.o.provides.build: CMakeFiles/darknetli
 
 CMakeFiles/darknetlib.dir/src/dropout_layer.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/dropout_layer.o: ../src/dropout_layer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/dropout_layer.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/dropout_layer.o   -c /home/hxhx/darknet/neural-cam/src/dropout_layer.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/dropout_layer.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/dropout_layer.c
 
 CMakeFiles/darknetlib.dir/src/dropout_layer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/dropout_layer.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/dropout_layer.c > CMakeFiles/darknetlib.dir/src/dropout_layer.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/dropout_layer.c > CMakeFiles/darknetlib.dir/src/dropout_layer.i
 
 CMakeFiles/darknetlib.dir/src/dropout_layer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/dropout_layer.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/dropout_layer.c -o CMakeFiles/darknetlib.dir/src/dropout_layer.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/dropout_layer.c -o CMakeFiles/darknetlib.dir/src/dropout_layer.s
 
 CMakeFiles/darknetlib.dir/src/dropout_layer.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/dropout_layer.o.requires
@@ -2373,17 +2373,17 @@ CMakeFiles/darknetlib.dir/src/dropout_layer.o.provides.build: CMakeFiles/darknet
 
 CMakeFiles/darknetlib.dir/src/avgpool_layer.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/avgpool_layer.o: ../src/avgpool_layer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/avgpool_layer.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/avgpool_layer.o   -c /home/hxhx/darknet/neural-cam/src/avgpool_layer.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/avgpool_layer.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/avgpool_layer.c
 
 CMakeFiles/darknetlib.dir/src/avgpool_layer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/avgpool_layer.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/avgpool_layer.c > CMakeFiles/darknetlib.dir/src/avgpool_layer.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/avgpool_layer.c > CMakeFiles/darknetlib.dir/src/avgpool_layer.i
 
 CMakeFiles/darknetlib.dir/src/avgpool_layer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/avgpool_layer.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/avgpool_layer.c -o CMakeFiles/darknetlib.dir/src/avgpool_layer.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/avgpool_layer.c -o CMakeFiles/darknetlib.dir/src/avgpool_layer.s
 
 CMakeFiles/darknetlib.dir/src/avgpool_layer.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/avgpool_layer.o.requires
@@ -2396,17 +2396,17 @@ CMakeFiles/darknetlib.dir/src/avgpool_layer.o.provides.build: CMakeFiles/darknet
 
 CMakeFiles/darknetlib.dir/src/local_layer.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/local_layer.o: ../src/local_layer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/local_layer.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/local_layer.o   -c /home/hxhx/darknet/neural-cam/src/local_layer.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/local_layer.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/local_layer.c
 
 CMakeFiles/darknetlib.dir/src/local_layer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/local_layer.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/local_layer.c > CMakeFiles/darknetlib.dir/src/local_layer.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/local_layer.c > CMakeFiles/darknetlib.dir/src/local_layer.i
 
 CMakeFiles/darknetlib.dir/src/local_layer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/local_layer.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/local_layer.c -o CMakeFiles/darknetlib.dir/src/local_layer.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/local_layer.c -o CMakeFiles/darknetlib.dir/src/local_layer.s
 
 CMakeFiles/darknetlib.dir/src/local_layer.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/local_layer.o.requires
@@ -2419,17 +2419,17 @@ CMakeFiles/darknetlib.dir/src/local_layer.o.provides.build: CMakeFiles/darknetli
 
 CMakeFiles/darknetlib.dir/src/gemm.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/gemm.o: ../src/gemm.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/gemm.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/gemm.o   -c /home/hxhx/darknet/neural-cam/src/gemm.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/gemm.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/gemm.c
 
 CMakeFiles/darknetlib.dir/src/gemm.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/gemm.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/gemm.c > CMakeFiles/darknetlib.dir/src/gemm.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/gemm.c > CMakeFiles/darknetlib.dir/src/gemm.i
 
 CMakeFiles/darknetlib.dir/src/gemm.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/gemm.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/gemm.c -o CMakeFiles/darknetlib.dir/src/gemm.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/gemm.c -o CMakeFiles/darknetlib.dir/src/gemm.s
 
 CMakeFiles/darknetlib.dir/src/gemm.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/gemm.o.requires
@@ -2442,17 +2442,17 @@ CMakeFiles/darknetlib.dir/src/gemm.o.provides.build: CMakeFiles/darknetlib.dir/s
 
 CMakeFiles/darknetlib.dir/src/network.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/network.o: ../src/network.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/network.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/network.o   -c /home/hxhx/darknet/neural-cam/src/network.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/network.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/network.c
 
 CMakeFiles/darknetlib.dir/src/network.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/network.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/network.c > CMakeFiles/darknetlib.dir/src/network.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/network.c > CMakeFiles/darknetlib.dir/src/network.i
 
 CMakeFiles/darknetlib.dir/src/network.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/network.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/network.c -o CMakeFiles/darknetlib.dir/src/network.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/network.c -o CMakeFiles/darknetlib.dir/src/network.s
 
 CMakeFiles/darknetlib.dir/src/network.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/network.o.requires
@@ -2465,17 +2465,17 @@ CMakeFiles/darknetlib.dir/src/network.o.provides.build: CMakeFiles/darknetlib.di
 
 CMakeFiles/darknetlib.dir/src/tree.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/tree.o: ../src/tree.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/tree.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/tree.o   -c /home/hxhx/darknet/neural-cam/src/tree.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/tree.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/tree.c
 
 CMakeFiles/darknetlib.dir/src/tree.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/tree.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/tree.c > CMakeFiles/darknetlib.dir/src/tree.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/tree.c > CMakeFiles/darknetlib.dir/src/tree.i
 
 CMakeFiles/darknetlib.dir/src/tree.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/tree.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/tree.c -o CMakeFiles/darknetlib.dir/src/tree.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/tree.c -o CMakeFiles/darknetlib.dir/src/tree.s
 
 CMakeFiles/darknetlib.dir/src/tree.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/tree.o.requires
@@ -2488,17 +2488,17 @@ CMakeFiles/darknetlib.dir/src/tree.o.provides.build: CMakeFiles/darknetlib.dir/s
 
 CMakeFiles/darknetlib.dir/src/option_list.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/option_list.o: ../src/option_list.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/option_list.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/option_list.o   -c /home/hxhx/darknet/neural-cam/src/option_list.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/option_list.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/option_list.c
 
 CMakeFiles/darknetlib.dir/src/option_list.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/option_list.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/option_list.c > CMakeFiles/darknetlib.dir/src/option_list.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/option_list.c > CMakeFiles/darknetlib.dir/src/option_list.i
 
 CMakeFiles/darknetlib.dir/src/option_list.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/option_list.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/option_list.c -o CMakeFiles/darknetlib.dir/src/option_list.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/option_list.c -o CMakeFiles/darknetlib.dir/src/option_list.s
 
 CMakeFiles/darknetlib.dir/src/option_list.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/option_list.o.requires
@@ -2511,17 +2511,17 @@ CMakeFiles/darknetlib.dir/src/option_list.o.provides.build: CMakeFiles/darknetli
 
 CMakeFiles/darknetlib.dir/src/convolutional_layer.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/convolutional_layer.o: ../src/convolutional_layer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/convolutional_layer.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/convolutional_layer.o   -c /home/hxhx/darknet/neural-cam/src/convolutional_layer.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/convolutional_layer.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/convolutional_layer.c
 
 CMakeFiles/darknetlib.dir/src/convolutional_layer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/convolutional_layer.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/convolutional_layer.c > CMakeFiles/darknetlib.dir/src/convolutional_layer.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/convolutional_layer.c > CMakeFiles/darknetlib.dir/src/convolutional_layer.i
 
 CMakeFiles/darknetlib.dir/src/convolutional_layer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/convolutional_layer.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/convolutional_layer.c -o CMakeFiles/darknetlib.dir/src/convolutional_layer.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/convolutional_layer.c -o CMakeFiles/darknetlib.dir/src/convolutional_layer.s
 
 CMakeFiles/darknetlib.dir/src/convolutional_layer.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/convolutional_layer.o.requires
@@ -2534,17 +2534,17 @@ CMakeFiles/darknetlib.dir/src/convolutional_layer.o.provides.build: CMakeFiles/d
 
 CMakeFiles/darknetlib.dir/src/detector.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/detector.o: ../src/detector.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/detector.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/detector.o   -c /home/hxhx/darknet/neural-cam/src/detector.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/detector.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/detector.c
 
 CMakeFiles/darknetlib.dir/src/detector.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/detector.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/detector.c > CMakeFiles/darknetlib.dir/src/detector.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/detector.c > CMakeFiles/darknetlib.dir/src/detector.i
 
 CMakeFiles/darknetlib.dir/src/detector.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/detector.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/detector.c -o CMakeFiles/darknetlib.dir/src/detector.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/detector.c -o CMakeFiles/darknetlib.dir/src/detector.s
 
 CMakeFiles/darknetlib.dir/src/detector.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/detector.o.requires
@@ -2557,17 +2557,17 @@ CMakeFiles/darknetlib.dir/src/detector.o.provides.build: CMakeFiles/darknetlib.d
 
 CMakeFiles/darknetlib.dir/src/connected_layer.o: CMakeFiles/darknetlib.dir/flags.make
 CMakeFiles/darknetlib.dir/src/connected_layer.o: ../src/connected_layer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/darknetlib.dir/src/connected_layer.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/connected_layer.o   -c /home/hxhx/darknet/neural-cam/src/connected_layer.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/darknetlib.dir/src/connected_layer.o   -c /home/hxhx/darknet/haixun00/neural-cam/src/connected_layer.c
 
 CMakeFiles/darknetlib.dir/src/connected_layer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/darknetlib.dir/src/connected_layer.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/neural-cam/src/connected_layer.c > CMakeFiles/darknetlib.dir/src/connected_layer.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/hxhx/darknet/haixun00/neural-cam/src/connected_layer.c > CMakeFiles/darknetlib.dir/src/connected_layer.i
 
 CMakeFiles/darknetlib.dir/src/connected_layer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/darknetlib.dir/src/connected_layer.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/neural-cam/src/connected_layer.c -o CMakeFiles/darknetlib.dir/src/connected_layer.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/hxhx/darknet/haixun00/neural-cam/src/connected_layer.c -o CMakeFiles/darknetlib.dir/src/connected_layer.s
 
 CMakeFiles/darknetlib.dir/src/connected_layer.o.requires:
 .PHONY : CMakeFiles/darknetlib.dir/src/connected_layer.o.requires
@@ -2622,17 +2622,17 @@ darknetlib_OBJECTS = \
 
 # External object files for target darknetlib
 darknetlib_EXTERNAL_OBJECTS = \
-"/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_deconvolutional_kernels.cu.o" \
-"/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_col2im_kernels.cu.o" \
-"/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_convolutional_kernels.cu.o" \
-"/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_crop_layer_kernels.cu.o" \
-"/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_dropout_layer_kernels.cu.o" \
-"/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_blas_kernels.cu.o" \
-"/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_network_kernels.cu.o" \
-"/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_maxpool_layer_kernels.cu.o" \
-"/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_avgpool_layer_kernels.cu.o" \
-"/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_im2col_kernels.cu.o" \
-"/home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_activation_kernels.cu.o"
+"/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_deconvolutional_kernels.cu.o" \
+"/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_col2im_kernels.cu.o" \
+"/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_convolutional_kernels.cu.o" \
+"/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_crop_layer_kernels.cu.o" \
+"/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_dropout_layer_kernels.cu.o" \
+"/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_blas_kernels.cu.o" \
+"/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_network_kernels.cu.o" \
+"/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_maxpool_layer_kernels.cu.o" \
+"/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_avgpool_layer_kernels.cu.o" \
+"/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_im2col_kernels.cu.o" \
+"/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/src/./darknetlib_generated_activation_kernels.cu.o"
 
 libdarknetlib.a: CMakeFiles/darknetlib.dir/src/list.o
 libdarknetlib.a: CMakeFiles/darknetlib.dir/src/box.o
@@ -2750,6 +2750,6 @@ CMakeFiles/darknetlib.dir/depend: CMakeFiles/darknetlib.dir/src/./darknetlib_gen
 CMakeFiles/darknetlib.dir/depend: CMakeFiles/darknetlib.dir/src/./darknetlib_generated_avgpool_layer_kernels.cu.o
 CMakeFiles/darknetlib.dir/depend: CMakeFiles/darknetlib.dir/src/./darknetlib_generated_im2col_kernels.cu.o
 CMakeFiles/darknetlib.dir/depend: CMakeFiles/darknetlib.dir/src/./darknetlib_generated_activation_kernels.cu.o
-	cd /home/hxhx/darknet/neural-cam/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hxhx/darknet/neural-cam /home/hxhx/darknet/neural-cam /home/hxhx/darknet/neural-cam/build /home/hxhx/darknet/neural-cam/build /home/hxhx/darknet/neural-cam/build/CMakeFiles/darknetlib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hxhx/darknet/haixun00/neural-cam/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hxhx/darknet/haixun00/neural-cam /home/hxhx/darknet/haixun00/neural-cam /home/hxhx/darknet/haixun00/neural-cam/build /home/hxhx/darknet/haixun00/neural-cam/build /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/darknetlib.dir/depend
 

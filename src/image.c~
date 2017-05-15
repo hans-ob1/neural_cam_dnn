@@ -1044,10 +1044,9 @@ image load_image_stb(char *filename, int channels)
 
 image load_image(char *filename, int w, int h, int c)
 {
+
 #ifdef OPENCV
     image out = load_image_from_cv(filename);
-
-    printf("image loading\n");
 #else
     image out = load_image_stb(filename, c);
 #endif
@@ -1057,7 +1056,6 @@ image load_image(char *filename, int w, int h, int c)
         out = resized;
     }
 
-    printf("image processed\n");
     return out;
 }
 

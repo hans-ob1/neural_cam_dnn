@@ -82,7 +82,8 @@ vector<detectedBox> display_frame_cv(bool display){
     vector<detectedBox> pass_objects(detectedobjects);
 
     if(display){
-   	for(int j = 0; j < detectedobjects.size(); j++){
+
+   		for(int j = 0; j < detectedobjects.size(); j++){
      	    Point namePos(detectedobjects[j].topLeft.x,detectedobjects[j].topLeft.y-10);  //position of name
             rectangle(img_cpp, detectedobjects[j].topLeft, detectedobjects[j].bottomRight, detectedobjects[j].objectColor, 2, CV_AA);                  //draw bounding box
             putText(img_cpp, detectedobjects[j].name, namePos, FONT_HERSHEY_PLAIN, 2.0, detectedobjects[j].objectColor, 1.5);                          //write the name of the object
@@ -95,26 +96,6 @@ vector<detectedBox> display_frame_cv(bool display){
 
     return pass_objects;
 }
-
-/*
-void display_frame_cv(){
-
-   Mat img_display = img_cpp.clone();
-
-   for(int j = 0; j < detectedobjects.size(); j++){
-     Point namePos(detectedobjects[j].topLeft.x,detectedobjects[j].topLeft.y-10);  //position of name
-
-     rectangle(img_cpp, detectedobjects[j].topLeft, detectedobjects[j].bottomRight, detectedobjects[j].objectColor, 2, CV_AA);  //draw bounding box
-     putText(img_cpp, detectedobjects[j].name, namePos, FONT_HERSHEY_PLAIN, 2.0, detectedobjects[j].objectColor, 1.5);          //write the name of the object
-
-   }
-
-    detectedobjects.clear();  //clear vector for next cycle
-
-    imshow("detected results", img_cpp);
-}
-*/
-
 
 // input picture frame from file
 extern "C" image load_image_from_cv(char *filename)
@@ -248,8 +229,9 @@ bool init_camera_param(int cam_id){
 	       return false;
       }else{
 
-         cap_un.set(CAP_PROP_FRAME_WIDTH,1344);
-         cap_un.set(CAP_PROP_FRAME_HEIGHT,376);
+      	 //set camera parameters
+         cap_un.set(CAP_PROP_FRAME_WIDTH, 1280);
+         cap_un.set(CAP_PROP_FRAME_HEIGHT,720);
          cap_un.set(CAP_PROP_FOURCC,CV_FOURCC('M','J','P','G'));
          cap_un.set(CAP_PROP_FPS, 30);
          return true;
@@ -282,14 +264,9 @@ int main(int argc, char* argv[]){
 
       int camera_number = 0;
 
-      if(strcmp(argv[2], "1") == 0)
-         camera_number = 1;
+      camera_number = atoi(argv[2]);
 
-      if(strcmp(argv[2], "2") == 0)
-         camera_number = 2;
-
-      if(strcmp(argv[2], "3") == 0)
-         camera_number = 3;
+      cout << "Opening Device: /dev/video" << camera_number << endl;
 
       if(!init_camera_param(camera_number))
           return -1;
@@ -298,7 +275,7 @@ int main(int argc, char* argv[]){
 
        for(;;){  //process and show everyframe
           process_camera_frame(true);
-          if(waitKey (1) >= 0)  //break upon anykey
+          if(waitKey (1) >= 0)  	//break upon anykey
              break;
        }
 

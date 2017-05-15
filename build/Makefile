@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hxhx/darknet/neural-cam
+CMAKE_SOURCE_DIR = /home/hxhx/darknet/haixun00/neural-cam
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hxhx/darknet/neural-cam/build
+CMAKE_BINARY_DIR = /home/hxhx/darknet/haixun00/neural-cam/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,9 +69,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxhx/darknet/neural-cam/build/CMakeFiles /home/hxhx/darknet/neural-cam/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxhx/darknet/neural-cam/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -112,17 +112,17 @@ darknetlib/fast:
 .PHONY : darknetlib/fast
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named main_cam2
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main
-.PHONY : main
+main_cam2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main_cam2
+.PHONY : main_cam2
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+main_cam2/fast:
+	$(MAKE) -f CMakeFiles/main_cam2.dir/build.make CMakeFiles/main_cam2.dir/build
+.PHONY : main_cam2/fast
 
 #=============================================================================
 # Target rules for targets named supportlib
@@ -514,17 +514,17 @@ src/local_layer.s:
 
 # target to build an object file
 src/main.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.o
+	$(MAKE) -f CMakeFiles/main_cam2.dir/build.make CMakeFiles/main_cam2.dir/src/main.o
 .PHONY : src/main.o
 
 # target to preprocess a source file
 src/main.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.i
+	$(MAKE) -f CMakeFiles/main_cam2.dir/build.make CMakeFiles/main_cam2.dir/src/main.i
 .PHONY : src/main.i
 
 # target to generate assembly for a file
 src/main.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.s
+	$(MAKE) -f CMakeFiles/main_cam2.dir/build.make CMakeFiles/main_cam2.dir/src/main.s
 .PHONY : src/main.s
 
 # target to build an object file
@@ -760,7 +760,7 @@ help:
 	@echo "... depend"
 	@echo "... darknetlib"
 	@echo "... edit_cache"
-	@echo "... main"
+	@echo "... main_cam2"
 	@echo "... rebuild_cache"
 	@echo "... supportlib"
 	@echo "... src/activation_layer.o"

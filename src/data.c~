@@ -22,6 +22,23 @@ list *get_paths(char *filename)
     return lines;
 }
 
+/*
+char **get_random_paths_indexes(char **paths, int n, int m, int *indexes)
+{
+    char **random_paths = calloc(n, sizeof(char*));
+    int i;
+    pthread_mutex_lock(&mutex);
+    for(i = 0; i < n; ++i){
+        int index = rand()%m;
+        indexes[i] = index;
+        random_paths[i] = paths[index];
+        if(i == 0) printf("%s\n", paths[index]);
+    }
+    pthread_mutex_unlock(&mutex);
+    return random_paths;
+}
+*/
+
 char **get_random_paths(char **paths, int n, int m)
 {
     char **random_paths = calloc(n, sizeof(char*));

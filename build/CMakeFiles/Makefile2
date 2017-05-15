@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hxhx/darknet/neural-cam
+CMAKE_SOURCE_DIR = /home/hxhx/darknet/haixun00/neural-cam
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hxhx/darknet/neural-cam/build
+CMAKE_BINARY_DIR = /home/hxhx/darknet/haixun00/neural-cam/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/darknetlib.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/hxhx/darknet/neural-cam/build
 CMakeFiles/darknetlib.dir/all:
 	$(MAKE) -f CMakeFiles/darknetlib.dir/build.make CMakeFiles/darknetlib.dir/depend
 	$(MAKE) -f CMakeFiles/darknetlib.dir/build.make CMakeFiles/darknetlib.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50
 	@echo "Built target darknetlib"
 .PHONY : CMakeFiles/darknetlib.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/darknetlib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/darknetlib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxhx/darknet/neural-cam/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/darknetlib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxhx/darknet/neural-cam/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles 0
 .PHONY : CMakeFiles/darknetlib.dir/rule
 
 # Convenience name for target.
@@ -88,39 +88,39 @@ clean: CMakeFiles/darknetlib.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/main.dir
+# Target rules for target CMakeFiles/main_cam2.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all: CMakeFiles/darknetlib.dir/all
-CMakeFiles/main.dir/all: CMakeFiles/supportlib.dir/all
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles  51
-	@echo "Built target main"
-.PHONY : CMakeFiles/main.dir/all
+CMakeFiles/main_cam2.dir/all: CMakeFiles/darknetlib.dir/all
+CMakeFiles/main_cam2.dir/all: CMakeFiles/supportlib.dir/all
+	$(MAKE) -f CMakeFiles/main_cam2.dir/build.make CMakeFiles/main_cam2.dir/depend
+	$(MAKE) -f CMakeFiles/main_cam2.dir/build.make CMakeFiles/main_cam2.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles  51
+	@echo "Built target main_cam2"
+.PHONY : CMakeFiles/main_cam2.dir/all
 
 # Include target in all.
-all: CMakeFiles/main.dir/all
+all: CMakeFiles/main_cam2.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxhx/darknet/neural-cam/build/CMakeFiles 52
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxhx/darknet/neural-cam/build/CMakeFiles 0
-.PHONY : CMakeFiles/main.dir/rule
+CMakeFiles/main_cam2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles 52
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main_cam2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles 0
+.PHONY : CMakeFiles/main_cam2.dir/rule
 
 # Convenience name for target.
-main: CMakeFiles/main.dir/rule
-.PHONY : main
+main_cam2: CMakeFiles/main_cam2.dir/rule
+.PHONY : main_cam2
 
 # clean rule for target.
-CMakeFiles/main.dir/clean:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
-.PHONY : CMakeFiles/main.dir/clean
+CMakeFiles/main_cam2.dir/clean:
+	$(MAKE) -f CMakeFiles/main_cam2.dir/build.make CMakeFiles/main_cam2.dir/clean
+.PHONY : CMakeFiles/main_cam2.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/main_cam2.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -130,7 +130,7 @@ clean: CMakeFiles/main.dir/clean
 CMakeFiles/supportlib.dir/all:
 	$(MAKE) -f CMakeFiles/supportlib.dir/build.make CMakeFiles/supportlib.dir/depend
 	$(MAKE) -f CMakeFiles/supportlib.dir/build.make CMakeFiles/supportlib.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/neural-cam/build/CMakeFiles  52
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles  52
 	@echo "Built target supportlib"
 .PHONY : CMakeFiles/supportlib.dir/all
 
@@ -140,9 +140,9 @@ all: CMakeFiles/supportlib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/supportlib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxhx/darknet/neural-cam/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/supportlib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxhx/darknet/neural-cam/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles 0
 .PHONY : CMakeFiles/supportlib.dir/rule
 
 # Convenience name for target.

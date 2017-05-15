@@ -29,8 +29,8 @@ TARGET_LINK_LIBRARIES(darknetlib m pthread stdc++ cublas curand cudnn)
 SET(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -std=c++11" )
 
 cuda_add_library(supportlib src/supportfunc.cpp src/supportfunc.hpp)
-cuda_add_executable(main_cam2 src/main.cpp)
-TARGET_LINK_LIBRARIES(main_cam2 m pthread stdc++ darknetlib ${OpenCV_LIBS} supportlib)
+cuda_add_executable(main src/main.cpp)
+TARGET_LINK_LIBRARIES(main m pthread stdc++ darknetlib ${OpenCV_LIBS} supportlib)
 
 
 
