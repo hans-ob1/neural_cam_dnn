@@ -231,7 +231,7 @@ bool init_camera_param(int cam_id){
 
       	 //set camera parameters
          cap_un.set(CAP_PROP_FRAME_WIDTH, 1280);
-         cap_un.set(CAP_PROP_FRAME_HEIGHT,720);
+         cap_un.set(CAP_PROP_FRAME_HEIGHT, 720);
          cap_un.set(CAP_PROP_FOURCC,CV_FOURCC('M','J','P','G'));
          cap_un.set(CAP_PROP_FPS, 30);
          return true;
