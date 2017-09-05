@@ -1,6 +1,0 @@
-classes= 3
-train  = /home/hxhx/yolo2/scripts/train.txt
-valid  = /home/hxhx/yolo2/scripts/train.txt
-names = data/combo.names
-backup = backup
-
