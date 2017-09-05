@@ -1,3 +1,0 @@
-/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/darknetlib.dir
-/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/main_cam2.dir
-/home/hxhx/darknet/haixun00/neural-cam/build/CMakeFiles/supportlib.dir
